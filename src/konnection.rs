@@ -1,8 +1,8 @@
-use std::io::{self, BufStream};
+use bufstream::BufStream;
+use std::io;
 use std::io::prelude::*;
 use std::mem;
 use std::net::*;
-use std::result::Result;
 
 
 #[derive(Debug)]

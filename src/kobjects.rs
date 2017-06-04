@@ -97,7 +97,7 @@ impl KVector {
     }
 }
 
-pub type KBoolean = u8;
+pub type KBoolean = bool;
 pub type KGuid = [u64;16];
 pub type KByte = i8;
 pub type KShort = i16;

@@ -1,7 +1,3 @@
-#![allow(deprecated)]
-#![feature(buf_stream)]
-#![feature(convert)]
-
 // TODO: endian issues
 //         byteorder (0.3.11)
 //         - Library for reading/writing numbers in big-endian and little-endian.
@@ -16,6 +12,7 @@
 // TODO: functions
 // TODO: collapse all atom/vector out, use guards on type codes instead?
 
+extern crate bufstream;
 
 pub mod konnection;
 pub mod kobjects;

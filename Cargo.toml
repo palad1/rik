@@ -4,5 +4,6 @@ version = "0.1.0"
 authors = ["Jason Nordwick <jnordwick@gmail.com>"]
 
 [dependencies]
-log = "0.3"
+bufstream="0.1.*"
+log = "0.3.*"
 
